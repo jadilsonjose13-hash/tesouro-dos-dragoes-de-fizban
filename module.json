@@ -1,0 +1,185 @@
+{
+  "id": "tesouro-dos-dragoes-de-fizban",
+  "title": "Tesouro dos Dragões de Fizban",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true,
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.0xODWdzQnDttyrDV",
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.qplDddk7IwSAVdju",
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.EunrDLoskpCPyq3S",
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.qKL8kooo5BKjCztN",
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.EnXNmVxqsZJh9D2T",
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.m99OwIPaEpG4M379",
+        "Compendium.tesouro-dos-dragoes-de-fizban.regras.JournalEntry.lPjxsCutkhG05zda.JournalEntryPage.ocg4jXfpbWZhxlN4"
+      ],
+      "sourceBooks": {
+        "FTD": "Tesouro dos Dragões de Fizban"
+      }
+    }
+  },
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/tesouro-dos-dragoes-de-fizban/imagens/thumb-modulo.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-racas",
+      "label": "Características de Raças",
+      "path": "packs/caracteristicas-de-racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "racas",
+      "label": "Raças",
+      "path": "packs/racas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-atores",
+      "label": "Características de Atores",
+      "path": "packs/caracteristicas-de-atores",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "atores",
+      "label": "Atores",
+      "path": "packs/atores",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Tesouro dos Dragões de Fizban",
+      "sorting": "a",
+      "color": "#b82a15",
+      "packs": [
+        "magias",
+        "tabelas",
+        "regras"
+      ],
+      "folders": [
+        {
+          "name": "Bestiário",
+          "sorting": "a",
+          "color": "#a52512",
+          "packs": [
+            "atores",
+            "caracteristicas-de-atores"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Raças Dracônicas",
+          "sorting": "m",
+          "color": "#932110",
+          "packs": [
+            "racas",
+            "caracteristicas-de-racas"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-dos-monstros-2014",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>Tudo que você precisa para começar a jogar o maior RPG de todos os tempos.</p>",
+  "url": "https://github.com/jadilsonjose13-hash/tesouro-dos-dragoes-de-fizban",
+  "manifest": "",
+  "download": ""
+}
