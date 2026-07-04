@@ -1,7 +1,7 @@
 {
   "id": "tesouro-dos-dragoes-de-fizban",
   "title": "Tesouro dos Dragões de Fizban",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -180,6 +180,6 @@
   },
   "description": "<p>Tudo que você precisa para começar a jogar o maior RPG de todos os tempos.</p>",
   "url": "https://github.com/jadilsonjose13-hash/tesouro-dos-dragoes-de-fizban",
-  "manifest": "",
-  "download": ""
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/tesouro-dos-dragoes-de-fizban/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/tesouro-dos-dragoes-de-fizban/archive/refs/heads/main.zip"
 }
