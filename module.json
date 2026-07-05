@@ -1,7 +1,7 @@
 {
   "id": "tesouro-dos-dragoes-de-fizban",
   "title": "Tesouro dos Dragões de Fizban",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -116,6 +116,39 @@
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "caracteristicas-de-subclasses",
+      "label": "Características de Subclasses",
+      "path": "packs/caracteristicas-de-subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "talentos-draconicos",
+      "label": "Talentos Dracônicos",
+      "path": "packs/talentos-draconicos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -126,7 +159,8 @@
       "packs": [
         "magias",
         "tabelas",
-        "regras"
+        "regras",
+        "talentos-draconicos"
       ],
       "folders": [
         {
@@ -146,6 +180,16 @@
           "packs": [
             "racas",
             "caracteristicas-de-racas"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Subclasses",
+          "sorting": "m",
+          "color": "#801d0e",
+          "packs": [
+            "subclasses",
+            "caracteristicas-de-subclasses"
           ],
           "folders": []
         }
