@@ -1,7 +1,7 @@
 {
   "id": "tesouro-dos-dragoes-de-fizban",
   "title": "Tesouro dos Dragões de Fizban",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -122,30 +122,63 @@
       "label": "Subclasses",
       "path": "packs/subclasses",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "caracteristicas-de-subclasses",
       "label": "Características de Subclasses",
       "path": "packs/caracteristicas-de-subclasses",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "talentos-draconicos",
       "label": "Talentos Dracônicos",
       "path": "packs/talentos-draconicos",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "itens-magicos",
+      "label": "Itens Mágicos",
+      "path": "packs/itens-magicos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "itens-magicos-de-tesouro",
+      "label": "Itens Mágicos de Tesouro",
+      "path": "packs/itens-magicos-de-tesouro",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mapas",
+      "label": "Mapas",
+      "path": "packs/mapas",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e"
@@ -157,10 +190,10 @@
       "sorting": "a",
       "color": "#b82a15",
       "packs": [
-        "magias",
         "tabelas",
         "regras",
-        "talentos-draconicos"
+        "talentos-draconicos",
+        "mapas"
       ],
       "folders": [
         {
@@ -174,9 +207,20 @@
           "folders": []
         },
         {
+          "name": "Magia Dracônica",
+          "sorting": "a",
+          "color": "#932110",
+          "packs": [
+            "magias",
+            "itens-magicos",
+            "itens-magicos-de-tesouro"
+          ],
+          "folders": []
+        },
+        {
           "name": "Raças Dracônicas",
           "sorting": "m",
-          "color": "#932110",
+          "color": "#801d0e",
           "packs": [
             "racas",
             "caracteristicas-de-racas"
@@ -186,7 +230,7 @@
         {
           "name": "Subclasses",
           "sorting": "m",
-          "color": "#801d0e",
+          "color": "#6e190c",
           "packs": [
             "subclasses",
             "caracteristicas-de-subclasses"
