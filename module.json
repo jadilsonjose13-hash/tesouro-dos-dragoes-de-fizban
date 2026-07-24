@@ -1,7 +1,7 @@
 {
   "id": "tesouro-dos-dragoes-de-fizban",
   "title": "Tesouro dos Dragões de Fizban",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -177,6 +177,17 @@
       "label": "Mapas",
       "path": "packs/mapas",
       "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dons-draconicos",
+      "label": "Dons Dracônicos",
+      "path": "packs/dons-draconicos",
+      "type": "Item",
       "ownership": {
         "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
@@ -213,7 +224,8 @@
           "packs": [
             "magias",
             "itens-magicos",
-            "itens-magicos-de-tesouro"
+            "itens-magicos-de-tesouro",
+            "dons-draconicos"
           ],
           "folders": []
         },
